@@ -20,8 +20,8 @@
 
 - set up keys under config/prod directory
 
-#### LIVE VERSION (not updated)
-(https://pacific-ocean-87710.herokuapp.com/)
+#### [LIVE VERSION (not updated)](https://pacific-ocean-87710.herokuapp.com/)
+
 
 #### CURRENT ISSUES
 
