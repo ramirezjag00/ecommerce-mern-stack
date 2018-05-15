@@ -5,7 +5,7 @@
 #### Created using MERN STACK (MongoDB, ExpressJS, ReactJS, NodeJS)
 ##### Initial design was in PSQL and Sequelize but pivoted to MongoDB and Mongoose
 
-# START
+# TO START
 
 - clone/download latest version Branch
 - cd into the project_name
@@ -19,7 +19,12 @@
 
 - set up keys under config directory
 
-# CURRENT ISSUES
+# LIVE VERSION (not updated)
+##### https://pacific-ocean-87710.herokuapp.com/
+
+#### CURRENT ISSUES
+
+- should have sign up as well or option to log in using different google account
 
 - FORM CAN SUBMIT AN ITEM EVEN W/O VALUES (validation in admin page)
 
