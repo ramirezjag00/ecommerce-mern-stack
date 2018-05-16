@@ -31,7 +31,7 @@
 
 - admin page should accessible only when 'admin' is logged in (HOC)
 
-- verification first before proceeding (cancel and proceed)
+- history page of user to show items bought
 
 - make navbar sticky or just show a small badge beside the item to show number of items in cart
 
