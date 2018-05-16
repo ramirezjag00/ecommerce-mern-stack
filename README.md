@@ -29,7 +29,7 @@
 
 - FORM CAN SUBMIT AN ITEM EVEN W/O VALUES (validation in admin page)
 
-- admin page should accessible only when 'admin' is logged in (HOC)
+- admin page should accessible only for user 'ADMIN'
 
 - history page of user to show items bought
 
