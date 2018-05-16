@@ -29,6 +29,8 @@
 
 - FORM CAN SUBMIT AN ITEM EVEN W/O VALUES (validation in admin page)
 
+- After form submit re-route user to homepage (use react-router-dom, withRouter)
+
 - in admin route, make a delete verification modal (cancel or delete)
 
 - admin page should accessible only for user 'ADMIN'
