@@ -29,6 +29,8 @@
 
 - FORM CAN SUBMIT AN ITEM EVEN W/O VALUES (validation in admin page)
 
+- if you met an error ie. typed in string instead of number in price input in itemForm or /admin route then submitted, app needs to be restarted
+
 - in admin route, make a delete verification modal (cancel or delete)
 
 - admin page should accessible only for user 'ADMIN'
