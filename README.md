@@ -33,8 +33,6 @@
 
 - make navbar sticky or just show a small badge beside the item to show number of items in cart
 
-- Products Link in other routes in navbar is not accessible
-
 - still have to refresh page to show the active link in the navbar
 
 - EDIT CSS since we used react-bootstrap
