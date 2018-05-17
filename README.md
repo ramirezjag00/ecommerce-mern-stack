@@ -29,13 +29,17 @@
 
 - admin page should only be accessible for user 'ADMIN'
 
-- history page of user to show items bought
-
 - make navbar sticky or just show a small badge beside the item to show number of items in cart
 
-- still have to refresh page to show the active link in the navbar
-
 - EDIT CSS since we used react-bootstrap
+
+- New LinkBar Issue [replicate issue with these steps]
+
+-- when posting an item or checking out a cart, you'll be re-routed to / or /items route (used withRouter of react-router-dom)
+
+-- but the LinkBar is not updated (used NavLink of react-router-dom), even if you refresh.
+
+-- the manual solution is to go to another link and to back to / or /items route
 
 # FOR IMPROVEMENT
 
@@ -46,6 +50,8 @@
 - add a show book page and create gallery for images
 
 - SENDGRID package or any emailer
+
+- history page of user to show items bought
 
 - STRIPE package or any payment gateway
 
