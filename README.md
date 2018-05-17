@@ -27,8 +27,6 @@
 
 - should have sign up as well or option to log in using different google account
 
-- FORM CAN SUBMIT AN ITEM EVEN W/O VALUES (validation in admin page)
-
 - admin page should only be accessible for user 'ADMIN'
 
 - history page of user to show items bought
