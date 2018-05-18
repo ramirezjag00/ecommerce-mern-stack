@@ -33,14 +33,6 @@
 
 - EDIT CSS since we used react-bootstrap
 
-- New LinkBar Issue [replicate issue with these steps]
-
--- when posting an item or checking out a cart, you'll be re-routed to / or /items route (used withRouter of react-router-dom)
-
--- but the LinkBar is not updated (used NavLink of react-router-dom), even if you refresh.
-
--- the manual solution is to go to another link and to back to / or /items route
-
 # FOR IMPROVEMENT
 
 - use multer package in the server side to handle uploads(client/public/images or client/public/uploads) and save as array of strings in mongodb instead of manually adding photos in the directory to have a selection of images
