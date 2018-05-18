@@ -25,10 +25,6 @@
 
 #### CURRENT ISSUES
 
-- should have sign up as well or option to log in using different google account
-
-- admin page should only be accessible for user 'ADMIN'
-
 - EDIT CSS since we used react-bootstrap
 
 # FOR IMPROVEMENT
