@@ -25,7 +25,17 @@
 
 #### CURRENT ISSUES
 
-- EDIT CSS since we used react-bootstrap
+- EDIT CSS while using react-bootstrap or remove react-bootstrap and change to redux-form
+
+- disable save button if any of the form is blank or don't let form submit if there is nothing in the form
+
+- cart of certain user is the same as other user
+
+- in cartRoutes, GET http://local xhr.js:178 host:3000/api/cart 401 unauthorized
+
+- -current behavior, sessions overlaps the current user id inside the session of the previous session user id and takes all the items
+
+- -search for mongosession and passport for sessions of each user
 
 # FOR IMPROVEMENT
 
@@ -42,6 +52,8 @@
 - STRIPE package or any payment gateway
 
 - create a dashboard inside admin page (use d3 or other packages / framework)
+
+- insert query from db for admin id instead of hardcoded in client side in ItemNew.js and App.js
 
 - use reactJS techniques and es6+ syntax to shorten client / server side codes.
 
