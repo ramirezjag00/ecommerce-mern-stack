@@ -29,9 +29,9 @@
 
 - disable save button if any of the form is blank or don't let form submit if there is nothing in the form
 
-- cart of certain user is the same as other user
-
 - in cartRoutes, GET http://local xhr.js:178 host:3000/api/cart 401 unauthorized
+
+- cart of certain user is the same as other user
 
 - -current behavior, sessions overlaps the current user id inside the session of the previous session user id and takes all the items
 
