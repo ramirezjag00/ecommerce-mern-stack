@@ -29,8 +29,6 @@
 
 - admin page should only be accessible for user 'ADMIN'
 
-- make navbar sticky or just show a small badge beside the item to show number of items in cart
-
 - EDIT CSS since we used react-bootstrap
 
 # FOR IMPROVEMENT
