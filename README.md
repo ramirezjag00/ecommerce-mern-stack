@@ -27,16 +27,6 @@
 
 - EDIT CSS while using react-bootstrap or remove react-bootstrap and change to redux-form
 
-- disable save button if any of the form is blank or don't let form submit if there is nothing in the form
-
-- in cartRoutes, GET http://local xhr.js:178 host:3000/api/cart 401 unauthorized
-
-- cart of certain user is the same as other user
-
-- -current behavior, sessions overlaps the current user id inside the session of the previous session user id and takes all the items
-
-- -search for mongosession and passport for sessions of each user
-
 # FOR IMPROVEMENT
 
 - use multer package in the server side to handle uploads(client/public/images or client/public/uploads) and save as array of strings in mongodb instead of manually adding photos in the directory to have a selection of images
@@ -53,7 +43,11 @@
 
 - create a dashboard inside admin page (use d3 or other packages / framework)
 
-- insert query from db for admin id instead of hardcoded in client side in ItemNew.js and App.js
+- insert query from db for admin id instead of hardcoded in client side in ItemNew.js and App.js 
+
+- in authRoutes.js, remove req.session.destroy and in cartRoutes.js, add in req.session.regenerate and req.session.save to make a user independent sessions (express-session and connect-mongo)
+
+- disable save button if any of the form is blank or don't let form submit if there is nothing in the form
 
 - use reactJS techniques and es6+ syntax to shorten client / server side codes.
 
