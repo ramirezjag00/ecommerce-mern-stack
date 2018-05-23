@@ -1,6 +1,5 @@
 # ecommerce-mern-stack
 
-
 ## Bazaar is a basic e-commerce web app that sells drone parachutes.
 
 #### Created using MERN STACK (MongoDB, ExpressJS, ReactJS, NodeJS)
@@ -22,10 +21,15 @@
 
 #### [LIVE DEV VERSION (not updated)](https://pacific-ocean-87710.herokuapp.com/)
 
+#### CURRENT BEHAVIOR in Item Form or '/admin' route
+- when images btn is clicked, image text box should update immediately
+[current behavior] when images btn is clicked, image text box should be touched next to show the current value
 
-#### CURRENT ISSUES
-
-- EDIT CSS while using react-bootstrap or remove react-bootstrap and change to redux-form
+-when you add an item, the select dropdown should update
+[current behavior] when you add an item, the select dropdown doesn't update immediately, still have to refresh
+ 
+-when you click select and choose an item ID, delete button will be enabled, and if you choose the default back, the button should be disabled
+[current behavior] when you click select and choose an item ID, delete button will be enabled, but if you choose the default back, the button will still be enabled
 
 # FOR IMPROVEMENT
 
@@ -33,7 +37,7 @@
 
 - REACT-DROPBOX package to handle react drag/drop upload button in the form with sort of show image while uploading
 
-- add a show book page and create gallery for images
+- add a show item page and create gallery for images
 
 - SENDGRID package or any emailer
 
@@ -46,8 +50,6 @@
 - insert query from db for admin id instead of hardcoded in client side in ItemNew.js and App.js 
 
 - in authRoutes.js, remove req.session.destroy and in cartRoutes.js, add in req.session.regenerate and req.session.save to make a user independent sessions (express-session and connect-mongo)
-
-- disable save button if any of the form is blank or don't let form submit if there is nothing in the form
 
 - use reactJS techniques and es6+ syntax to shorten client / server side codes.
 
