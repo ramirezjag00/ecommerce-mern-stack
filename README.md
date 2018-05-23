@@ -25,10 +25,10 @@
 - when images btn is clicked, image text box should update immediately
 [current behavior] when images btn is clicked, image text box should be touched next to show the current value
 
--when you add an item, the select dropdown should update
+- when you add an item, the select dropdown should update
 [current behavior] when you add an item, the select dropdown doesn't update immediately, still have to refresh
  
--when you click select and choose an item ID, delete button will be enabled, and if you choose the default back, the button should be disabled
+- when you click select and choose an item ID, delete button will be enabled, and if you choose the default back, the button should be disabled
 [current behavior] when you click select and choose an item ID, delete button will be enabled, but if you choose the default back, the button will still be enabled
 
 # FOR IMPROVEMENT
