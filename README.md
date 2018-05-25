@@ -22,10 +22,11 @@
 #### [LIVE DEV VERSION (not updated)](https://pacific-ocean-87710.herokuapp.com/)
 
 #### CURRENT ISSUE in cart or '/cart' route
-- already added a stripe form in frontend & backend, but still trying to solve how the 'amount' in routes/billingRoutes.js dir, be dynamic like in the front end.
+- already added a stripe form in frontend & backend, but still trying to solve how the 'amount' in routes/billingRoutes.js dir, be dynamic like in the front end, then post the charges, request for charges, save to MongoDB.
 
 [RESOLVE#1](https://stripe.com/docs/recipes/variable-amount-checkout)
 [RESOLVE#2](https://stackoverflow.com/questions/42572086/stripe-and-nodejs-passing-an-amount-to-charge)
+[RESOLVE#3](https://stripe.com/docs/api/node#charges)
 
 #### CURRENT BEHAVIOR in Item Form or '/admin' route
 - when images btn is clicked, image text box should update immediately
