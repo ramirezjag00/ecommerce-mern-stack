@@ -22,11 +22,7 @@
 #### [LIVE DEV VERSION (not updated)](https://pacific-ocean-87710.herokuapp.com/)
 
 #### CURRENT ISSUE in cart or '/cart' route
-- already added a stripe form in frontend & backend, but still trying to solve how the 'amount' in routes/billingRoutes.js dir, be dynamic like in the front end, then post the charges, request for charges, save to MongoDB.
-
-[RESOLVE#1](https://stripe.com/docs/recipes/variable-amount-checkout)
-[RESOLVE#2](https://stackoverflow.com/questions/42572086/stripe-and-nodejs-passing-an-amount-to-charge)
-[RESOLVE#3](https://stripe.com/docs/api/node#charges)
+- stripe is already working, but if I want to close the stripe form, it still triggers handleShowCheckout, because of the prop of StripeCheckout 'closed'. expected behavior, there is a trigger for x or close button of that form and a different one for successful transaction then closed.
 
 #### CURRENT BEHAVIOR in Item Form or '/admin' route
 - when images btn is clicked, image text box should update immediately
