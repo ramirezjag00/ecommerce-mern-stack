@@ -46,8 +46,6 @@
 
 - history page of user to show items bought
 
-- STRIPE package or any payment gateway
-
 - create a dashboard inside admin page (use d3 or other packages / framework)
 
 - insert query from db for admin id instead of hardcoded in client side in ItemNew.js and App.js 
