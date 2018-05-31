@@ -29,7 +29,7 @@
 
 - in item:id or '/items:id' route
 
-- item details do not load and show. data reaches actions, api but not sure if it reaches the reducers. check commented console.logs
+- item details do not load and show. data reaches actions creator, api, db back to api then actions creator but not sure if it reaches the reducers > store > UI. check commented console.logs
 
 #### CURRENT BEHAVIOR in Item Form or '/admin' route
 - when images btn is clicked, image text box should update immediately
