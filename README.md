@@ -21,8 +21,15 @@
 
 #### [LIVE DEV VERSION (not updated)](https://pacific-ocean-87710.herokuapp.com/)
 
-#### CURRENT ISSUE in cart or '/cart' route
+#### CURRENT ISSUE
+
+- in cart or '/cart' route
+
 - stripe is already working, but if I want to close the stripe form, it still triggers handleShowCheckout, because of the prop of StripeCheckout 'closed'. expected behavior, there is a trigger for x or close button of that form and a different one for successful transaction then closed.
+
+- in item:id or '/items:id' route
+
+- item details do not load and show. data reaches actions creator, api, db back to api then actions creator but not sure if it reaches the reducers > store > UI. check commented console.logs
 
 #### CURRENT BEHAVIOR in Item Form or '/admin' route
 - when images btn is clicked, image text box should update immediately
